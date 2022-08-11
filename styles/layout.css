@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+}
+/* These are to style the layout of each page */
+    .header-wrapper { 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #404040;
+    }
+    .common {
+        position: absolute;
+    }
+/* CSS Code for Resume.html*/
+    .leftmenu {
+        left: 5px;
+        width: 200px;
+        padding-bottom: 15px;
+        justify-content: space-evenly;
+    }
+    .mainbody {
+        left: 225px;
+        padding-left: 20px;
+        }
+    #paragraph-padding{
+        padding-right: 800px;
+    }
+    .transbg {
+        background-color: rgba(43, 43, 43, 0.7);
+    }
+    .aboutmetop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1000px;
+        gap: 1rem;
+    }
+    .aboutme-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    .interest {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .interestbox {
+        padding-right: 25px;
+    }
+    .image {
+        float: right;
+    }
+    .footer {
+        bottom: 5px;
+        height: 10px;
+        left: 5px;
+        right: 5px;
+        font-size: 8px;
+        color: lightgray;
+        text-align: center;
+        position: fixed;
+    }
+    .subheader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .quicklink{
+        padding-left: 50px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    .quicklinkh{
+        font-weight: bolder;
+        text-decoration: underline;
+        font-size: large;
+    }
+    .padding{
+        padding: 4px;
+    }
+    .resumebg {
+        background-image: url('../images/Mountain.jpg');
+        background-position: top center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+    }
+    .resumenamebox{
+        padding-top: 5px;
+        padding-bottom: 5pxS;
+        padding-left: 10px;
+        background-color: rgba(43, 43, 43, 0.9);
+        font-weight: bold;
+        text-align: justify;
+    }
+    .nameboxcontact {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+/*CSS Code for Index.html*/
+    .indexbody {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgba(43, 43, 43, 0.9);
+        font-size: 20px;
+    }
+    .contactinfo {
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(238, 238, 238, 0.9);
+        border: solid 5px #404040;
+        height: 100px;
+        width: 557px;
+        padding-top: 50px;
+        font-size: 48px;
+        color: #404040;
+        text-decoration: underline;
+        font-weight: bolder;
+    }
+    .nameheader {
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .phonebox {
+        background-color: rgba(238, 238, 238, 0.9);
+        border: solid 5px #404040;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 22px;
+        color: #404040;
+    }
+    .emailbox {
+        background-color: rgba(238, 238, 238, 0.9);
+        border: solid 5px #404040;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 18px;
+        color: #404040;
+    }
+    .contactheader {
+        text-decoration: underline;
+        font-size: 36px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .contact-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
